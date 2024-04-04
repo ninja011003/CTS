@@ -1,0 +1,35 @@
+{
+    "customers": [
+        {
+            "acc_id": "ACC001",
+            "customer_name": "John Doe",
+            "balance": 1000.0
+        },
+        {
+            "acc_id": "ACC002",
+            "customer_name": "Jane Smith",
+            "balance": 9000
+        },
+        {
+            "acc_id": "ACC003",
+            "customer_name": "Pranavesh",
+            "balance": 2069.0
+        }
+    ],
+    "transactions": [
+        {
+            "sender": "ACC001",
+            "receiver": "ACC002",
+            "amount": 2000,
+            "datetime": "2024-04-04 16:10:44.933671",
+            "status": "TRANSACTION SUCCESSFUL"
+        },
+        {
+            "sender": "ACC001",
+            "receiver": "ACC003",
+            "amount": 2000.0,
+            "datetime": "2024-04-04 16:18:23.521929",
+            "status": "TRANSACTION SUCCESSFUL"
+        }
+    ]
+}
